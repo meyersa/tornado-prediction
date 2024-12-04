@@ -1,0 +1,9 @@
+requests
+xarray
+numpy
+tensorflow
+tensorflow-macos
+tensorflow-metal
+netCDF4
+
+b2sdk
