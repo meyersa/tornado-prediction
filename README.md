@@ -5,7 +5,7 @@ A machine learning project leveraging MIT's TorNet to predict tornado occurrence
 The goal of this project was to take MIT's work and train a 3D network, compared to the 2D networks that have been trained so far, with a better recall and precision. In the end, this was not as effective as planned due to the short length of this project. 
 
 ## Results
-Although accuracy (0.9188) and AUC (0.8768) are high, they can be misleading. The low precision (0.4128) indicates a high rate of false positives, while the moderate recall (0.6074) shows the model's ability to capture true positives is limited. This suggests that the model's performance may not be reliable, especially for imbalanced datasets or critical applications requiring high confidence in predictions
+Although accuracy (0.9188) and AUC (0.8768) are high, they can be misleading. The low precision (0.4128) indicates a high rate of false positives, while the moderate recall (0.6074) shows the model's ability to capture true positives is limited. This makes sense considering the dataset is almost completely skewed to non tornadic data, meaning it just has to guess not tornado to achieve a high accuracy, when in reality it actually has a hard time finding tornados. 
 
 | Metric            | Value |
 |-------------------|------------|
