@@ -1,6 +1,6 @@
 # Tornado Predictions
 
-A machine learning project leveraging MIT's TorNet to predict tornado occurrences from satellite images using a 3D Convolutional Neural Network (CNN).
+A machine learning project leveraging MIT's TorNet to predict tornado occurrences from radar images using a 3D Convolutional Neural Network (CNN).
 
 The goal of this project was to take MIT's work and train a 3D network, compared to the 2D networks that have been trained so far, with a better recall and precision. In the end, this was not as effective as planned due to the short length of this project. 
 
